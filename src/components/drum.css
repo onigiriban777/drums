@@ -1,0 +1,58 @@
+#emoji {
+    color: #191919;
+    font-size: 2.5rem;
+}
+#main-title{
+    font-size: 3.8rem;
+    font-weight: 900;
+    color: #191919;
+}
+#main-sub{
+    font-size: 1.5rem;
+    margin-bottom: 2%;
+    color: #191919
+}
+
+#drum-machine{
+    color: #191919;
+    min-height: 50vh;
+    width: 90vw;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: left;
+    flex-wrap: nowrap;
+}
+#bateria{
+    justify-content: center;
+    width: 70%;
+    display: flex;
+    padding-right: 12px;
+}
+#drum-section {
+    display: flex;
+}
+
+.drum-pad{
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    background-color: #191919;
+    color: white ;
+}
+.drum-pad:hover {
+    background-color: lightpink !important;
+}
+#display {
+    width: 25vw;
+}
+
+#display-box {
+    background-color: #191919 !important;
+    color: white;
+    font-weight: 500;
+    padding:4px;
+    text-align: center;
+}
